@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <parameter name="fname" value="Aarav12"></parameter>
+  <parameter name="lname" value="pawar"></parameter>
+  <parameter name="email" value="aarav22@gmail.com"></parameter>
+  <parameter name="phone" value="7050904020"></parameter>
+  <parameter name="pass" value="12345678"></parameter>
+  <parameter name="cpass" value="12345678"></parameter>
+    <classes>
+      <class name="com.testing.test.testPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

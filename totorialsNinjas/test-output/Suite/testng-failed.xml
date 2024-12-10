@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="fname" value="Aarav"/>
+    <parameter name="lname" value="pawar"/>
+    <parameter name="cpass" value="12345678"/>
+    <parameter name="phone" value="7050904020"/>
+    <parameter name="pass" value="12345678"/>
+    <parameter name="email" value="aarav123@gmail.com"/>
+    <classes>
+      <class name="com.testing.test.testPage">
+        <methods>
+          <include name="captureScreen"/>
+          <include name="HandleWindow"/>
+          <include name="browserClose"/>
+          <include name="HandleCookies"/>
+          <include name="deleteCookies"/>
+          <include name="openBrowser"/>
+          <include name="dbClose"/>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="enterUrl"/>
+        </methods>
+      </class> <!-- com.testing.test.testPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
